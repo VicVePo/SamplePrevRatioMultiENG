@@ -1,0 +1,19 @@
+Package: SamplePrevRatioMultiENG
+Title: Sample Size Calculation for Prevalence Ratio Studies
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: This package provides tools to calculate sample size in studies
+    using prevalence ratio as a measure of association, considering multivariable
+    analysis and logistical aspects of the study. Includes functions for:
+    * Sample size calculation considering covariables in the model
+    * Statistical power evaluation
+    * Study logistics planning
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
